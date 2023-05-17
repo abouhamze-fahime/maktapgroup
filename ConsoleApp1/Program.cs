@@ -8,3 +8,8 @@ DbStorage dbStorage = new DbStorage();
  var lst =from a in   dbStorage.people.ToList()
           where a.Name .StartsWith("a")
           select a;
+
+foreach (var item in lst)
+{
+    Console.WriteLine(item.Name);
+}

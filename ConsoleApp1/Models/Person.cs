@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Models
 {
-    internal class Person
+    public class Person
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Nationalcode { get; set; }
     }
 }

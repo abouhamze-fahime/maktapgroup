@@ -8,12 +8,12 @@ namespace ConsoleApp1.Models
 {
     public class Person
     {
-<<<<<<< Updated upstream
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Nationalcode { get; set; }
-=======
 
->>>>>>> Stashed changes
+
+
     }
 }

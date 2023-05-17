@@ -12,7 +12,8 @@ namespace ConsoleApp1.Entities
         public List<Person> people = new List<Person>(){
             new Person() { Id = 1 , Name="Zahra" , Nationalcode="adsfasfd"},
             new Person() { Id = 2 ,Name = "fariba" , Nationalcode ="asdfaf"},
-            new Person() { Id = 3 ,Name="Zhina" , Nationalcode ="afdasfas"}
+            new Person() { Id = 3 ,Name="Zhina" , Nationalcode ="afdasfas"} ,
+            new Person() { Id = 4 ,Name="azar" , Nationalcode="5452452"}
     };
     }
 }
